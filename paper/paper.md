@@ -1,33 +1,64 @@
 ---
-title: 'BioHackEU23 report: Template for the very long title'
+title: 'SWAT4HCLS Biohackathon 2026: Template for the very long title'
 title_short: 'BioHackEU23 #26: unknown chemical substances'
 tags:
-  - cheminformatics
+  - LLM
   - PubChem
   - unknown chemical substances
 authors:
-  - name: First Author
+  - name: Iurii Savvateev
+    orcid: 0009-0000-5159-7239
     affiliation: 1
-    role: Writing – original draft
-  - name: Last Author
-    orcid: 0000-0000-0000-0000
+    role: 
+  - name: Woodward Galbraith
+    orcid: 0000-0002-7941-5545
     affiliation: 2
-    role: Conceptualization, Writing – review & editing
+    role:   
+  - name: Linda Hendriks
+    orcid: 0009-0000-8403-9401
+    role: Writing – original draft    
+    affiliation: 3
+  - name: Alexander Kellmann
+    affiliation: 4
+    orcid: 0000-0001-6108-5552
+    role: Writing – original draft    
+  - name: Nalini Paijens
+    affiliation: 5
+    orcid: 0000-0001-6108-5552
+    role: Writing – original draft    
+  - name: Umit Sude Böhler
+    orcid: 0009-0009-1820-5200
+    affiliation: 6
+    role: Writing – original draft    
+# Example     role: Conceptualization, Writing – review & editing
 affiliations:
-  - name: First Affiliation
+  - name: Bundesinstitut für Risikobewertung (de), BfR
+    ror: 03k3ky186
     index: 1
-  - name: ELIXIR Europe
-    ror: 044rwnt51
+  - name: Northeastern University
+    ror: 04t5xt781
     index: 2
-date: 8 November 2023
+  - name: Leiden University Medical Center
+    ror: 05xvt9f17
+    index: 3  
+  - name: ..
+    ror: ..
+    index: 4 
+  - name: Greifswald University Hospital
+    ror: 025vngs54
+    index: 5 
+  - name: ...
+    ror: ...
+    index: 6 
+date: 26 March 2026
 cito-bibliography: paper.bib
-event: BH23EU
-biohackathon_name: "BioHackathon Europe 2023"
-biohackathon_url:   "https://biohackathon-europe.org/"
-biohackathon_location: "Barcelona, Spain, 2023"
-group: Project 26
+event: SWAT4HCLS
+biohackathon_name: "SWAT4HCLS Biohackathon 2026"
+biohackathon_url:   "https://www.swat4ls.org/swat4hcls-biohackathon-2026/"
+biohackathon_location: "Amsterdam, The Netherlands"
+group: Project 5
 # URL to project git repo --- should contain the actual paper.md:
-git_url: https://github.com/biohackrxiv/publication-template
+git_url: https://github.com/AJKellmann/SWAT4HCLS26_hack-5-llm-agents-term-reconciliation/blob/main/paper/paper.md
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
 authors_short: First Author \emph{et al.}
@@ -36,26 +67,60 @@ authors_short: First Author \emph{et al.}
 
 # Introduction
 
-As part of the BioHackathon Europe 2023, we here report...
+
+As part of the SWAT4HCLS Hackathon 2026, we report on Project 5.
+This project explores the use of Large Language Model (LLM)-based agents for automated reconciliation of domain-specific terminology with structured ontology concepts.
+Semantic interoperability remains a major bottleneck in achieving FAIR data integration across biomedical and life sciences domains. Mapping heterogeneous terminology to standardized identifiers from resources such as Wikidata and BioPortal is essential but typically relies on manual curation.This is a time-consuming and difficult to scale process.
+Recent advances in LLM-based agent systems provide new opportunities to automate this process by combining semantic similarity, contextual reasoning, and tool-based API interaction. In this project, we evaluate a multi-agent system designed to perform ontology mapping and apply it to real-world biomedical data derived from the Synodos NF2 project.
+
+
+
+
+# Methods
+
+**System architecture**
+
+We implemented a multi-agent pipeline for automated mapping of domain-specific terms to ontology concepts. The system integrates:
+
+- Ontology recommendation and search
+- Definition retrieval and enrichment
+- LLM-based reasoning for semantic alignment
+- Assignment of structured identifiers and SKOS relations
+
+The architecture is implemented using LangChain, LangGraph, and a 
+Deep Agent framework.
+
+**Multi-agent design**
+
+The system consists of three coordinated agents:
+ - agent 1
+ - System 2
+
+**-Ontology Agent**
+Selects relevant ontologies using BioPortal recommender services
+
+**-BioPortal Agent**
+Retrieves candidate concepts, including labels, synonyms, and definitions
+
+**-Orchestrating Agent**
+Integrates results, evaluates candidates, and assigns:
+Best matching identifier (Wikidata QID or ontology URI)
+SKOS semantic relation (e.g., exactMatch, closeMatch)
+Explanation for the mapping
+
+
+
+
 
 ## Meeting information
-
-If you want to submit a preprint to BioHackrXiv, first check if your meeting is registered. You can find a list
-of meetings [here](https://index.biohackrxiv.org/meetings). If your meeting is missing, please contact your meeting
-organizers. The above list also provides information on the YAML fields with information about the meeting.
-
-The following fields need to be given:
-
 ```YAML
-biohackathon_name: "BioHackathon Europe 2023"
-biohackathon_url:   "https://biohackathon-europe.org/"
-biohackathon_location: "Barcelona, Spain, 2023"
-group: Project 26
+biohackathon_name: "SWAT4HCLS Biohackathon 2026"
+biohackathon_url: "https://www.swat4ls.org/swat4hcls-biohackathon-2026/"
+biohackathon_location: "Amsterdam, The Netherlands"
+group: Project 5
 git_url: https://github.com/yourOrganization/your_report_repo
 ```
-
-The [BioHackrXiv meeting pages](https://index.biohackrxiv.org/meetings) provide content to use for the first
-three fields. The `git_url:` field must have the link to the GitHub repository with your preprint (draft).
+The `git_url:` field must have the link to the GitHub repository with your preprint (draft).
 
 ## Author information
 
