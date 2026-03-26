@@ -1,0 +1,45 @@
+Overview of experimental rounds	field3
+cell type	add information
+NF2-/- cells	2 runs
+NF2-/- cells	2 runs
+wt cells	2 runs, 2 media (ScienCell and UCF)
+NF2-/- and wt cells	
+	
+	
+Column headers	
+compound	compound name
+target(s)	targets (web search results)
+final compound concentration uM	compound concentration
+cell type	NF2-/- or wt
+time point	assay time point
+media wt cells	ScienCell or UCF media, for wt cells only
+wt lot nb	(2 different wt cell lots were used in the course of the project)
+IC50 [uM]	IC50 as indicated in reports
+TripMean_EDU_index	percentage of EDU-positive nuclei, mean value of three replicates
+SD_EDU_index	standard deviation of replicates for EDU-positive nuclei index
+TripMean_number_of_nuclei	number of nuclei, mean value of three replicates
+SD_number_of_nuclei	standard deviation of replicates for number of nuclei
+TripMean_large_index	percentage of large nuclei (area cut-off), mean value of three replicates
+SD_large_index	standard deviation of replicates for large nuclei index
+TripMean_mitotic_index	percentage of mitotic (PH3-positive) nuceli, mean value of three replicates
+SD_mitotic_index	standard deviation of replicates for mitotic index
+TripMean_small_index	percentage of small nuclei (area cut-off), mean vlaue of three replicates
+SD_small_index	standard deviation of replicates for small nuclei index
+TripMean_nuclear_deformation_index	percentage of deformed (non-ellipsoid) nuclei, mean value of three replicates 
+SD_nuclear_deformation_index	standard deviation of replicates for deformed nuclei index
+TripMean_nuclear_condensation_index	percentage of condensed nuclei (intensity and heterogeneity), mean vlaue of three replicates
+SD_nuclear_condensation_index	standard deviation of replicates for condensed nuclei
+norm_TripMean_number nuclei	percentage of EDU-positive nuclei, normalized to DMSO-treated cells, mean value of three replicates
+norm_SD_number of nuclei	standard deviation of normalized values of replicates for EDU-positive nuclei index
+norm_TripMean_EDU index	number of nuclei, normalized to DMSO-treated cells, mean value of three replicates
+norm_SD_EDU index	standard deviation of normalized values of replicates for number of nuclei
+norm_TripMean_small index	percentage of large nuclei (area cut-off), normalized to DMSO-treated cells, mean value of three replicates
+norm_SD_small index	standard deviation of normalized values of replicates for large nuclei index
+norm_TripMean_large index	percentage of mitotic (PH3-positive) nuclei, normalized to DMSO-treated cells, mean value of three replicates
+norm_SD_large index	standard deviation of normalized values of replicates for mitotic index
+norm_TripMean_mitotic index	percentage of small nuclei (area cut-off), normalized to DMSO-treated cells, mean vlaue of three replicates
+norm_SD_mitotic index	standard deviation of normalized values of replicates for small nuclei index
+norm_TripMean_deform index	percentage of deformed (non-ellipsoid) nuclei, normalized to DMSO-treated cells, mean value of three replicates 
+norm_SD_deform index	standard deviation of normalized values of replicates for deformed nuclei index
+norm_TripMean_cond index	percentage of condensed nuclei (intensity and heterogeneity), normalized to DMSO-treated cells, mean vlaue of three replicates
+norm_SD_cond index	standard deviation of normalized values of replicates for condensed nuclei
