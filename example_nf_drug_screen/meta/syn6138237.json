@@ -1,0 +1,107 @@
+{
+  "isLatestVersion": true,
+  "nf1Genotype": [
+    "Unknown"
+  ],
+  "assay": [
+    "cell viability assay"
+  ],
+  "modifiedOn": "2026-03-09T22:35:37.870Z",
+  "isMultiIndividual": [
+    "Yes"
+  ],
+  "diagnosis": [
+    "NF2-related schwannomatosis"
+  ],
+  "id": "syn6138237",
+  "dataSubtype": [
+    "quantified"
+  ],
+  "initiative": [
+    "Synodos"
+  ],
+  "parentId": "syn6138230",
+  "fileFormat": [
+    "tsv"
+  ],
+  "genePerturbationTechnology": [
+    "RNAi",
+    "CRISPR"
+  ],
+  "accessTeam": [
+    "273948"
+  ],
+  "dataType": [
+    "drug screen"
+  ],
+  "resourceType": [
+    "experimentalData"
+  ],
+  "versionLabel": "1",
+  "isCellLine": [
+    "Yes"
+  ],
+  "genePerturbationType": [
+    "control",
+    "knockdown",
+    "knockout"
+  ],
+  "drugScreenType": [
+    "singleMolecule"
+  ],
+  "dataFileHandleId": "9437311",
+  "studyId": [
+    "syn2343195"
+  ],
+  "accessType": [
+    "Public Access"
+  ],
+  "cellLineMetadataSynId": [
+    "syn6138288"
+  ],
+  "experimentalTimePoint": [
+    "48,72"
+  ],
+  "species": [
+    "Homo sapiens",
+    "Mus musculus"
+  ],
+  "timePointUnit": [
+    "hours"
+  ],
+  "name": "Synodos_DrugScreen_processed_data.tsv",
+  "isMultiSpecimen": [
+    "Yes"
+  ],
+  "tumorType": [
+    "meningioma"
+  ],
+  "createdOn": "2016-06-09T18:00:19.859Z",
+  "createdBy": "2166046",
+  "isModelSystem": [
+    "TRUE"
+  ],
+  "versionNumber": 1,
+  "concreteType": "org.sagebionetworks.repo.model.FileEntity",
+  "cellType": [
+    "schwann",
+    "schwannoma",
+    "arachnoid",
+    "meningioma"
+  ],
+  "modifiedBy": "3342573",
+  "fundingAgency": [
+    "CTF"
+  ],
+  "genePerturbed": [
+    "NF2"
+  ],
+  "individualMetadataSynId": [
+    "syn6138288"
+  ],
+  "studyName": [
+    "Synodos NF2"
+  ],
+  "etag": "f4b3a921-58dc-4016-bcf1-f685a4ed86b4",
+  "markdown": "${image?fileName=CTF Synodos Data Site Headers4%2Ejpg&align=Center&scale=100&responsive=true}\n#### ->*Creating tools and treatment paradigms for NF2-associated meningioma and schwannoma*<-\n---\n### ->**Check out the the [2019 data release](https://www.synapse.org/#!Synapse:syn2343195/wiki/400095)!**<-\n\n${image?fileName=Screen Shot 2016%2D06%2D13 at 11%2E52%2E29 AM%2Epng&align=Center&responsive=true&scale=60}\n\nSynodos for NF2 is a first-of-its-kind Neurofibromatosis research collaboration dedicated to defeating the rare genetic disorder neurofibromatosis type 2 (NF2). This unique consortium brings together a multidisciplinary team of scientists from twelve world-class labs at academic and medical centers of excellence, who have pledged to work closely together \u2013 sharing information, datasets, results and more \u2013 at every step in research development, with the goal of speeding up the drug discovery process. The end goal of this effort is to find new approaches to the diagnosis and treatment of two primary NF2-related tumors:  schwannoma and meningioma. The expectation is to take the work from discovery to pre-clinical development, resulting in the development of an Investigational New Drug (IND) for NF2. _The consortium is funded by [Children's Tumor Foundation](http://www.ctf.org/)(CTF)_\n\n----\n->${buttonlink?highlight=true&text=NF2 Data Summary&url=https://www.synapse.org/#!Synapse:syn2343195/wiki/499423}<- \n->${buttonlink?highlight=true&text=NF2 Public Data&url=https://www.synapse.org/#!Synapse:syn6133098}<-\n${buttonlink?text=Back to CTF Data Portal&url=https://nf%2Esynapse%2Eorg/Organizations/DetailsPage%3Fabbreviation%3DCTF&highlight=true&align=Center}\n\n----\n\nThe Synodos NF2 project has generated several types of \u2018omic and drug screening data from NF2 tumor models of schwannoma and meningioma, including: \n* Low throughput drug screening data: A panel of rationally-selected small molecules and drugs such as mTOR and HDAC inhibitors were tested against human and mouse cell line models of meningioma and schwannoma. \n* Single-agent and combination high throughput drug screening data: A panel of 1912 drugs and drug-like molecules (the MIPE 4.0 library from NCATS) was screened in 6 cell line models of meningioma and schwannoma with NF2 wildtype or NF2 deficient status. In addition, 4 of these cell lines were screened with 6x6 and 10x10 point combination dose-response assays with this panel of drugs. Both raw and processed data are available. \n* Genomic variant data (structural rearrangement): Jumping library sequencing facilitates detection of chromosomal abnormalities such as pathogenic breakpoints. There are processed data (bam files) from 11 human and mouse cell line models of meningioma and schwannoma with NF2 wildtype or NF2 deficient status. \n* Gene expression: Raw (fastq files) and processed (bam, count, and differential expression files) RNAseq data were generated from an Nf2fl/fl mouse model dorsal root ganglion tissue and cell line models of meningioma and schwannoma. In addition, data were generated from cell line models of meningioma and schwannoma with vehicle control, or 12 different single agent or combinations of small molecule inhibitors. Data from the 2017 release and the 2019 release are both now available for exploration.\n* Kinomics: Processed data are available from NF2 mouse model dorsal root ganglion tissue several cell line models of meningioma and schwannoma after treatment with a vehicle control or one of seven small molecules. Data from the 2017 release and the 2019 release are both now available for exploration.\n"
+}

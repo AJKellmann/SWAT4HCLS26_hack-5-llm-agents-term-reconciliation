@@ -1,0 +1,115 @@
+{
+  "isLatestVersion": true,
+  "entityId": [
+    "syn30384693"
+  ],
+  "specimenID": [
+    ""
+  ],
+  "assay": [
+    "cell viability assay"
+  ],
+  "platformTarget": [
+    ""
+  ],
+  "organ": [
+    ""
+  ],
+  "modifiedOn": "2026-03-10T05:58:41.336Z",
+  "specimenPreparationMethod": [
+    ""
+  ],
+  "diagnosis": [
+    ""
+  ],
+  "id": "syn30384693",
+  "Component": [
+    "PlateBasedReporterAssayTemplate"
+  ],
+  "Uuid": [
+    "9a206ddb-9742-4b37-82e9-d3d48e01e568"
+  ],
+  "aliquotID": [
+    ""
+  ],
+  "dataSubtype": [
+    "processed"
+  ],
+  "initiative": [
+    "Drug Discovery Initiative Registered Reports"
+  ],
+  "parentId": "syn27761883",
+  "platform": [
+    "EnVision 2103 Multiplate Reader"
+  ],
+  "progressReportNumber": [
+    10
+  ],
+  "dataType": [
+    "drug screen"
+  ],
+  "resourceType": [
+    "experimentalData"
+  ],
+  "versionLabel": "1",
+  "isCellLine": [
+    "Yes"
+  ],
+  "modelSystemName": [
+    "NF2-/- AC007-hTERT"
+  ],
+  "dataFileHandleId": "94800491",
+  "studyId": [
+    "syn27761862"
+  ],
+  "species": [
+    "Homo sapiens"
+  ],
+  "experimentalCondition": [
+    "drug treated vs DMSO"
+  ],
+  "timePointUnit": [
+    "hours"
+  ],
+  "name": "NF2-_AC-CRISPR-A19 drug treatment.xlsx",
+  "ageUnit": [
+    ""
+  ],
+  "experimentalTimepoint": [
+    72
+  ],
+  "createdOn": "2022-05-12T18:39:17.362Z",
+  "createdBy": "3322214",
+  "versionNumber": 1,
+  "concreteType": "org.sagebionetworks.repo.model.FileEntity",
+  "isPrimaryCell": [
+    "No"
+  ],
+  "cellType": [
+    "arachnoid"
+  ],
+  "reporterGene": [
+    ""
+  ],
+  "parentSpecimenID": [
+    ""
+  ],
+  "nf2Genotype": [
+    "-/-"
+  ],
+  "modifiedBy": "3342573",
+  "fundingAgency": [
+    "CTF"
+  ],
+  "reporterSubstance": [
+    ""
+  ],
+  "comments": [
+    "data represents dose response of cell lines to drug treatment (expressed as % viability) in drug treated cells compared to DMSO control treatment"
+  ],
+  "studyName": [
+    "Leveraging Synodos NF2 data to test novel single and combination drugs in NF2-deficient meningioma models"
+  ],
+  "etag": "ef9bd622-ac6e-405b-9416-3eebb2f98e8e",
+  "markdown": "# Leveraging Synodos NF2 data to test novel single and combination drugs in NF2-deficient meningioma models\n## CTF - Drug Discovery Initiative Registered Reports\n### Principal Investigator: Vijaya Ramesh (PI), Lei Xu (Co-investigator)\n### Project Lead / Data Coordinator: Roberta Beauchamp\n### Institution: Massachusetts General Hospital\n### Project Description:\nMeningiomas arise from meningothelial arachnoid cap cells and are the most common primary intracranial tumors in adults. NF2 inactivation is frequently associated with primary atypical (WHO grade II) tumors. Meningiomas that progress despite surgery and radiation are responsible for significant morbidity and mortality. Therefore, effective systemic therapies are greatly needed. For meningioma modeling and preclinical drug screening, we employ human primary meningioma (MN) cell lines derived from surgically resected tumors and CRISPR-Cas9 genome-edited isogenic, human arachnoidal cell lines (ACs) that either express or lack NF2. Employing these models, we established that NF2-deficient meningiomas reveal aberrant activation of mTORC1/mTORC2 signaling, which led to clinical trials for NF2 and meningiomas. In Synodos for NF2 project, we undertook large-scale kinome, transcriptome and drug screening studies in our AC and MN cell models to identify other potential targets. Kinome and transcriptome data revealed increased activation and expression of several EPH receptor family tyrosine kinases (EPH-RTKs), Src family kinase members (SFKs) and c-KIT. Our large-scale drug screening efforts, in collaboration with NIH-NCATS, revealed a set of proteasome inhibitors exhibiting cytotoxic effects with selectivity toward NF2-null cells. Taken together, here we propose to examine three different drugs targeting the proteasome (provided by Millennium/Takeda Pharmaceutical, and two NUAK2 specific inhibitors alone and combined with TAK-228 (mTOR inhibitor) in 2 grade I and 2 grade II MN lines as well as human Schwann cells (SC) with NF2 loss. Anti-tumor efficacy of proteasome drugs will also be evaluated in orthotopic NF2-deficient SC and MN models. Our overall approach of leveraging the \u2018omics and drug screening results from Synodos for NF2 studies for further testing in our in vitro and orthotopic NF2-deficient in vivo meningioma models is timely, novel and will provide a framework to pursue new avenues in NF2 research and for clinical care."
+}

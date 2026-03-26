@@ -1,0 +1,70 @@
+{
+  "name": "CTF-UCF-Cenix-CompleteCompoundData-all passes in one tab_ to release_FINAL.xlsx",
+  "isLatestVersion": true,
+  "individualID": [
+    "MS01, MS11"
+  ],
+  "isMultiSpecimen": [
+    "Yes"
+  ],
+  "assay": [
+    "high content screen"
+  ],
+  "createdOn": "2015-12-22T18:56:46.168Z",
+  "createdBy": "2166046",
+  "versionNumber": 2,
+  "modifiedOn": "2025-05-15T16:41:20.584Z",
+  "concreteType": "org.sagebionetworks.repo.model.FileEntity",
+  "isMultiIndividual": [
+    "Yes"
+  ],
+  "diagnosis": [
+    "Neurofibromatosis type 2"
+  ],
+  "id": "syn5562327",
+  "nf2Genotype": [
+    "+/+,-/-"
+  ],
+  "dataSubtype": [
+    "raw"
+  ],
+  "initiative": [
+    "Independent"
+  ],
+  "parentId": "syn5562326",
+  "modifiedBy": "3421893",
+  "fileFormat": [
+    "excel"
+  ],
+  "accessTeam": [
+    "273948"
+  ],
+  "dataType": [
+    "drug screen"
+  ],
+  "resourceType": [
+    "experimentalData"
+  ],
+  "versionLabel": "2",
+  "fundingAgency": [
+    "CTF"
+  ],
+  "isCellLine": [
+    "Yes"
+  ],
+  "studyId": [
+    "syn5562324"
+  ],
+  "dataFileHandleId": "37740033",
+  "studyName": [
+    "Phenotypic screening of anti-NF2 drug candidates in merlin-deficient and normal mouse Schwann cells"
+  ],
+  "etag": "31dac428-4a60-48e8-8797-f429f4a11450",
+  "accessType": [
+    "PUBLIC"
+  ],
+  "species": [
+    "Mus musculus"
+  ],
+  "markdown": "\n### Phenotypic screening of anti-NF2 drug candidates as a single agent or in combination using high content assays in merlin-deficient and normal mouse schwann cells\n\nThis project was an industry-academia collaboration between Cenix Bioscience and the University of Central Florida. MS01 and MS11 mouse Schwann cells (NF2-/- and NF2 wild-type) were screened with 95 different drugs and vehicle conditions for 48 hours in an 8-point dose response format. The screen also included a 30 minute incubation wih 10uM EdU to assess DNA replication in all conditions. At the end of the incubation period, phenotypic measurements were performed with an automated microscope (Image Express) and analyzed with the Definiens automated image analysis software. A variety of nuclear phenotypes were assessed for all conditions, including EDU-positive nuclei, number of nuclei, oversized nuclei, mitotic nuclei, undersized nuclei, non-ellipsoid nuclei, and condensed nuclei. MS11 were Mouse Schwann cells purchased from ScienCell (#M1700). MS01 were derived from Schwann cells from the sciatic nerves of adult Nf2flox2/flox2 mice that underwent Nf2 exon 2 deletion by in vitro infection with a Cre-expressing adenovirus (Ad-Cre).\n\n### Data\nAvailable [here.](syn5562327)\n\n#### Contributors: \n1. Children's Tumor Foundation \n2. Dr. Cristina Fernandez-Valle (UCF)\n3. Cenix Bioscience"
+}
