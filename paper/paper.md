@@ -1,11 +1,11 @@
 ---
-title: 'SWAT4HCLS Biohackathon 2026: Template for the very long title'
-title_short: 'BioHackEU23 #26: unknown chemical substances'
+title: 'SWAT4HCLS Hackathon 2026: Hack 5 llm-agents-term-reconciliation'
+title_short: 'SWAT4HCLS Hackathon 2026: llm-agents-term-reconciliation'
 tags:
   - LLM
   - Ontology
   - FAIR
-  - 
+  - AI
 authors:
   - name: Iurii Savvateev
     orcid: 0009-0000-5159-7239
@@ -27,7 +27,7 @@ authors:
     affiliation: 5
     orcid: 0009-0007-6481-0407
     role: Writing – original draft    
-  - name: Umit Sude Böhler
+  - name: Ümit Sude Böler
     orcid: 0009-0009-1820-5200
     affiliation: 6
     role: Writing – original draft, validation   
@@ -57,19 +57,15 @@ biohackathon_name: "SWAT4HCLS Biohackathon 2026"
 biohackathon_url: "https://www.swat4ls.org/swat4hcls-biohackathon-2026/"
 biohackathon_location: "Amsterdam, The Netherlands"
 group: Project 5
-# URL to project git repo --- should contain the actual paper.md:
 git_url: https://github.com/AJKellmann/SWAT4HCLS26_hack-5-llm-agents-term-reconciliation/blob/main/paper/paper.md
-# This is the short authors description that is used at the
-# bottom of the generated paper (typically the first two authors):
-authors_short: First Author \emph{et al.}
+authors_short: Savvateev *et al.*
 ---
-#  SWAT4HCLS Biohackathon 2026: Getting LLM Agents on the Same Page
 
 
 # Introduction
-As part of the SWAT4HCLS Hackathon 2026, we report on Project 5.
+As part of the SWAT4HCLS Hackathon 2026, we report on Project 5, Large Language Model-based Agents for Reconcilitiation of Terms.
 This project explores the use of Large Language Model (LLM)-based agents for automated reconciliation of domain-specific terminology with structured ontology concepts.
-Semantic interoperability remains a major bottleneck in achieving FAIR data integration across biomedical and life sciences domains. Mapping heterogeneous terminology to standardized identifiers from resources such as Wikidata and BioPortal is essential but typically relies on manual curation.This is a time-consuming and difficult to scale process.
+Semantic interoperability remains a major bottleneck in achieving FAIR data integration across biomedical and life sciences domains. Mapping heterogeneous terminology to standardized identifiers from resources such as Wikidata and BioPortal is essential but typically relies on manual curation. This is a time-consuming and difficult to scale process.
 Recent advances in LLM-based agent systems provide new opportunities to automate this process by combining semantic similarity, contextual reasoning, and tool-based API interaction. In this project, we evaluate a multi-agent system designed to perform ontology mapping and apply it to real-world biomedical data derived from the [Synodos NF2 project](https://www.synapse.org/Synapse:syn2343195/wiki/62125).
 
 
@@ -91,7 +87,7 @@ Deep Agent framework.
 **Multi-agent design**
 
 The system consists of three coordinated agents:
- - Ontlogoy Agent
+ - Ontology Agent
  - BioPortal Agent
  - Orchestrating Agent
 
@@ -106,6 +102,9 @@ The Orchestrating agent integrates results, evaluates candidates, and assigns:
 - Best matching identifier (Wikidata QID or ontology URI)
 - SKOS semantic relation (e.g., exactMatch, closeMatch)
 - Explanation for the mapping
+
+<!-- Add pipeline image here:
+![Alt text](image_url) -->
 
 
 **Data source: Synodos NF2 dataset**
@@ -131,16 +130,7 @@ One such data portal [The NF Data Portal](https://nf.synapse.org/) developed by 
 
 
 
-## Meeting information
-```YAML
-biohackathon_name: "SWAT4HCLS Biohackathon 2026"
-biohackathon_url: "https://www.swat4ls.org/swat4hcls-biohackathon-2026/"
-biohackathon_location: "Amsterdam, The Netherlands"
-group: Project 5
-git_url: "https://github.com/AJKellmann/SWAT4HCLS26_hack-5-llm-agents-term-reconciliation/blob/main/paper/paper.md"
-```
-
-
+<!--
 # Citation Typing Ontology annotation
 
 You can use [CiTO](http://purl.org/spar/cito/2018-02-12) annotations, as explained in [this BioHackathon Europe 2021 write up](https://raw.githubusercontent.com/biohackrxiv/bhxiv-metadata/main/doc/elixir_biohackathon2021/paper.md) and [this CiTO Pilot](https://www.biomedcentral.com/collections/cito).
@@ -173,7 +163,7 @@ Possible CiTO typing annotation include:
 * disagreesWith
 * updates
 * citation: generic citation
-
+-->
 
 # Results
 
